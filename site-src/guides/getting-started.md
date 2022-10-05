@@ -1,7 +1,7 @@
 # Getting started with Gateway API
 
 **1.**  **[Install a Gateway controller](#installing-a-gateway-controller)**
- _OR_  **[install the Gateway API CRDs manually](#installing-a-gateway-api-bundle)**
+ _OR_  **[install the Gateway API CRDs manually](#installing-gateway-api)**
 
 _THEN_
 
@@ -38,7 +38,7 @@ including GatewayClass, Gateway, and HTTPRoute. To install this channel, run the
 following kubectl command:
 
 ```
-kubectl apply -f https://github.com/kubernetes-sigs/gateway-api/releases/download/v0.5.0/standard-install.yaml
+kubectl apply -f https://github.com/kubernetes-sigs/gateway-api/releases/download/v0.5.1/standard-install.yaml
 ```
 
 ### Install Experimental Channel
@@ -56,7 +56,7 @@ documentation](https://gateway-api.sigs.k8s.io/concepts/versioning/).
 To install the experimental channel, run the following kubectl command:
 
 ```
-kubectl apply -f https://github.com/kubernetes-sigs/gateway-api/releases/download/v0.5.0/experimental-install.yaml
+kubectl apply -f https://github.com/kubernetes-sigs/gateway-api/releases/download/v0.5.1/experimental-install.yaml
 ```
 
 ### Cleanup
